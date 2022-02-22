@@ -4,7 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'pink-dark': '#d7504d',
+        'pink-light': '#e0a3a2'
+      },
+      fontFamily: {
+        'space-grotesk': ['"Space Grotesk"', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
