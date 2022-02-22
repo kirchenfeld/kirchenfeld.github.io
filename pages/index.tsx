@@ -3,17 +3,9 @@ import Image from 'next/image'
 import Card from '../components/card'
 import Mail from '../components/mail'
 
-// TODO: refactor and move into _document component:
-// https://nextjs.org/docs/advanced-features/custom-document
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>INNOSCOUT WEBSITE V1.1</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" /> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' /> 
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap" rel="stylesheet" />
-      </Head>
       <div className="h-screen flex flex-col bg-pink-light divide-y">
         <header className='flex px-20 pt-10'>
           <h2>INNOSCOUT WEBSITE V1.1</h2>
