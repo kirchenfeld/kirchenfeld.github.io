@@ -25,7 +25,6 @@ export default function Home() {
             </p>
           </div>
         </Card>
-        <CardStack></CardStack>
         <div className='place-self-end'>
           <Mail mailto=''></Mail>
         </div>
