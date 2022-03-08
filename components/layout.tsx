@@ -5,7 +5,7 @@ type LayoutProbs = {}
 
 const Layout: FunctionComponent<LayoutProbs> = ({children}) => {
     return (
-      <div className="h-screen flex flex-col bg-pink-light divide-y">
+      <div className="h-max flex flex-col bg-pink-light divide-y">
         <header className='flex px-20 pt-10'>
           <h2>INNOSCOUT WEBSITE V1.1</h2>
           <span className='grow'></span>
