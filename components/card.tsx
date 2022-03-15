@@ -15,7 +15,7 @@ const Card: FunctionComponent<CardProps> = ({title, children}) => {
                 <h3 className='text-white'>X</h3>
             </div>
             <span className='bg-black h-0.5'></span>
-            <div className='flex container p-5 bg-white font-space-grotesk'>
+            <div className='flex justify-around container p-5 bg-white font-space-grotesk'>
               {children}
             </div>
         </div>
