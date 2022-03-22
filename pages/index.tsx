@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 export default function Home() {
   return (
     <Layout>
-      <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-4'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-x-10 md:gap-x-20 gap-y-4'>
         <Card title='Finde Uns'>
           <div className='flex flex-col'>
             <p>

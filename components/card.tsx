@@ -8,8 +8,8 @@ type CardProps = {
 const Card: FunctionComponent<CardProps> = ({title, children}) => {
   return (
     <>
-        <div className='flex flex-col w-42 h-min border-2 border-black '>
-            <div className='flex container bg-pink-dark px-1'>
+        <div className='flex flex-col w-44 h-min border-2 border-black '>
+            <div className='flex bg-pink-dark px-1'>
                 <h3 className='text-white'>{title.toUpperCase()}</h3>
                 <span className='grow'></span>
                 <h3 className='text-white'>X</h3>
