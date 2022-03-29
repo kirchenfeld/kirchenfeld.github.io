@@ -1,6 +1,6 @@
 
 import { FunctionComponent } from 'react'
-import Layout from './layout';
+import Layout from '@components/layout';
 
 type MdxLayoutProbs = {}
 

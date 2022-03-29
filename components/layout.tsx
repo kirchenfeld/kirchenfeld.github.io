@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FunctionComponent } from 'react'
-import Mail from '../components/mail'
+import Mail from '@components/mail'
 
 type LayoutProbs = {}
 
