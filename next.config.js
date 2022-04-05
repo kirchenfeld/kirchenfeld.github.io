@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
@@ -7,7 +9,9 @@ const withMDX = require('@next/mdx')({
     // providerImportSource: "@mdx-js/react",
   },
 })
+
 module.exports = withMDX({
+  assetPrefix: isProd ? '/kirchenfeld.github.io /' : '',
   // Append the default value with md extensions
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   reactStrictMode: true,
