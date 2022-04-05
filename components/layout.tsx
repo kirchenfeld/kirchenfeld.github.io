@@ -17,6 +17,10 @@ const Layout: FunctionComponent<LayoutProbs> = ({children}) => {
           <Link href="/about">
               <a>WIR</a>
           </Link>
+          <span className='px-2'></span>
+          <Link href="/workshops">
+              <a>WORKSHOPS</a>
+          </Link>
         </header>
         <main className='grow p-10 md:p-20 h-max bg-pink-light'>
           {children}
