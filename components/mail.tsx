@@ -16,7 +16,7 @@ const Mail: FunctionComponent<MailProps> = ({children, mailto}) => {
       </div>
       <div className="flex w-10 h-10 bg-white transform transition-all absolute border-black border-2 -top-2 -left-2">
         <a href={mailto}>
-        <Image 
+        <img
           className='place-self-center'
           src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/e895dee7e912fde.png"
           height="80px"

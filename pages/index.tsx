@@ -15,8 +15,7 @@ export default function Home() {
               13:00 - 16:00 <br />
               Raum 125 <br />
             </p>
-            <Image 
-            layout='responsive'
+            <img
               width="370px"
               height="290px"
               src={"https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/801637ae342dbd1.png"}
