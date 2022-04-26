@@ -3,6 +3,7 @@ import Card from '@components/card'
 import Layout from '@components/layout'
 import Grid from '@components/grid'
 import Column from '@components/column'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -43,7 +44,7 @@ export default function Home() {
             </p>
             <br />
             <p>
-              Weitere Infos unter <a href="workshops" className='underline underline-offset-2'>Workshops.</a>
+              Weitere Infos unter <Link href="/workshops"><a className='underline underline-offset-2'>Workshops</a></Link>.
             </p>
           </Column>
         </Card>

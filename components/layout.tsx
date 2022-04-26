@@ -7,20 +7,22 @@ type LayoutProbs = {}
 const Layout: FunctionComponent<LayoutProbs> = ({children}) => {
     return (
       <div className="h-screen flex flex-col divide-y divide-black">
-        <header className='flex px-10 md:px-20 pt-10 bg-pink-light '>
+        <header className='flex flex-row px-10 md:px-20 pt-10 bg-pink-light '>
           <h2>INNOSCOUT WEBSITE V1.1</h2>
           <span className='grow'></span>
-          <Link href="/">
-              <a>HOME</a>
-          </Link>
-          <span className='px-2'></span>
-          <Link href="/about">
-              <a>WIR</a>
-          </Link>
-          <span className='px-2'></span>
-          <Link href="/workshops">
-              <a>WORKSHOPS</a>
-          </Link>
+          <div className='flex flex-col sm:flex-row'>
+            <Link href="/">
+                <a className='underline underline-offset-2 sm:no-underline'>HOME</a>
+            </Link>
+            <span className='px-2'></span>
+            <Link href="/about">
+                <a className='underline underline-offset-2 sm:no-underline'>WIR</a>
+            </Link>
+            <span className='px-2'></span>
+            <Link href="/workshops">
+                <a className='underline underline-offset-2 sm:no-underline'>WORKSHOPS</a>
+            </Link>
+          </div>
         </header>
         <main className='grow p-10 md:p-20 h-max bg-pink-light'>
           {children}
