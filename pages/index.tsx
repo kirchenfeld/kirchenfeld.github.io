@@ -12,7 +12,7 @@ export default function Home() {
         <Card title='Finde Uns'>
           <Column>
             <p>
-              Dienstag <br />
+              Dienstags <br />
               13:00 - 16:00 <br />
               Raum 125 <br />
             </p>
