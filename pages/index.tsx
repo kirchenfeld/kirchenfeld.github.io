@@ -43,7 +43,7 @@ export default function Home() {
             </p>
             <br />
             <p>
-              Weitere Infos folgen.
+              Weitere Infos unter <a href="workshops" className='underline underline-offset-2'>Workshops.</a>
             </p>
           </Column>
         </Card>
