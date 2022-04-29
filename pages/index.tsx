@@ -29,7 +29,7 @@ export default function Home() {
         <Card title='Unsere Liste'>
           <Column>
             <p>
-              Ja auch wir haben eine Liste mit Apps zusammengestellt! 
+              Auch wir haben eine Liste mit Apps zusammengestellt. 
             </p>
             <br />
             <p>
